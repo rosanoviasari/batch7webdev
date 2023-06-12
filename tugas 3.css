@@ -1,0 +1,105 @@
+html {
+    background-color: aliceblue;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 20px 12px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #050505;
+    text-transform: uppercase;
+    padding: 6px;
+  }
+  
+  nav ul li a:hover {
+    background-color: aliceblue;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  form {
+    background-color: white;
+  }
+  
+  form input {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  form input[type="submit"] {
+    margin: 0;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  section div :hover {
+    background-color: aliceblue;
+  }
+  table {width: 100%;background-color:#ffffff}
+  td {text-align: left;
+    margin-left: 0cm;
+  
+  }
+  
+  img { crop: circle;
+    border: #ff5e00 5px solid;
+    border-radius: 50%;
+  }
+ td h1 {
+    color: #000000;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    text-align:left;
+}
+td h2 {
+    color: rgb(95, 94, 94);
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    text-transform: capitalize;
+}
+td button [class="kontak"] {
+   background-color: blue; 
+   border-radius: 20%;
+   color:#ffffff;
+   text-align: center;
+   width: 20px; height: 10px;
+}
+td div button [class="resume"]{
+  background-color: #ffffff;
+  border: blue 1px solid;
+  border-radius: 20%;
+  color:blue;
+  text align: center;
+}
+tr td h3 {
+  color:#000000;
+  font-style: bold;
+  font-size: 16;
+  text-align: left;
+}
+ tr td h4 {
+  color:black;
+  font-style: normal;
+  font-size: 10;
+  text-align: left;
+ }
